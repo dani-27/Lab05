@@ -1,0 +1,33 @@
+LAB 5 DATA DICTIONARY
+=====================
+
+1. patient_feature_transformations.csv
+--------------------------------------
+Target column: risk_group
+
+Columns:
+- patient_id: Unique identifier for each synthetic patient.
+- age_years: Patient age in years.
+- biological_sex: Synthetic categorical variable with values Female or Male.
+- height_cm: Height in centimetres.
+- weight_kg: Weight in kilograms.
+- bmi: Body mass index calculated from height and weight.
+- systolic_bp: Synthetic systolic blood pressure measurement.
+- diastolic_bp: Synthetic diastolic blood pressure measurement.
+- fasting_glucose_mg_dl: Synthetic fasting glucose measurement.
+- crp_mg_l: Synthetic positively skewed inflammation-related measurement.
+- cholesterol_mmol_l: Synthetic cholesterol measurement.
+- activity_level: Ordinal category with values Low, Moderate, and High.
+- smoking_status: Nominal category with values Never, Former, and Current.
+- clinic_region: Nominal category showing the clinic region.
+- risk_group: Synthetic target category with values Lower, Moderate, and Higher.
+
+2. gene_expression_pca.csv
+--------------------------
+Target column: diagnosis_group
+
+Columns:
+- sample_id: Unique identifier for each synthetic biological sample.
+- Gene_01 to Gene_40: Synthetic gene-expression measurements.
+- diagnosis_group: Synthetic class label with values Control, Inflammatory,
+  and Metabolic.
