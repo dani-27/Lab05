@@ -1,10 +1,10 @@
 # Lab 5: Feature Analysis
 
-This lab introduces feature transformations and dimensionality reduction using two synthetic biomedical datasets. Students will practise changing numeric scales, discretizing continuous variables, encoding categorical variables, and using Principal Component Analysis (PCA) to represent a high-dimensional dataset with two principal components.
+This lab introduces feature transformations and dimensionality reduction using two synthetic biomedical datasets. You will practise changing numeric scales, discretizing continuous variables, encoding categorical variables, and using Principal Component Analysis (PCA) to represent a high-dimensional dataset with two principal components.
 
 ## Learning objectives
 
-By the end of the lab, students should be able to:
+By the end of the lab, you should be able to:
 
 - apply min-max scaling and z-score standardization
 - compare equal-width and equal-frequency discretization
